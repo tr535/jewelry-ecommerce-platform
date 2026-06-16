@@ -1,0 +1,190 @@
+/* עיצוב כללי */
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #fff;
+  direction: rtl;
+  font-family: Arial, sans-serif;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem 1.5rem;
+  box-shadow: none;
+  border: none;
+  background: #fff;
+}
+
+/* כותרת עליונה */
+.login-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.login-header h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f2a8b5;
+  margin: 0;
+}
+
+.login-header h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+  color: #000;
+}
+
+.login-header p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* טופס */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.login-form .p-float-label {
+  width: 100%;
+}
+
+.p-inputtext,
+.p-password input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #999;
+  border-radius: 0;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  background-color: transparent;
+}
+
+.p-password {
+  width: 100%;
+}
+
+/* כפתור התחברות */
+.login-button {
+  width: 100%;
+  background-color: #000;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 0.75rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.login-button:hover {
+  background-color: #333;
+}
+
+/* מחלקה לכפתורי התחברות אחרים */
+.social-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.google-btn,
+.facebook-btn {
+  flex: 1;
+  border: 1px solid #000;
+  padding: 0.65rem 0;
+  background: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  text-align: center;
+}
+
+.google-btn {
+  color: #4285f4;
+}
+
+.facebook-btn {
+  color: #3b5998;
+}
+
+.google-btn:hover,
+.facebook-btn:hover {
+  background: #f5f5f5;
+}
+
+/* קו הפרדה עם "או" */
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+  font-size: 0.9rem;
+  margin: 1.5rem 0;
+}
+
+.divider::before,
+.divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: #ccc;
+  margin: 0 0.75rem;
+}
+/* עטיפת FloatLabel */
+.login-input-wrapper {
+  width: 100%;
+}
+
+/* שדה טקסט רגיל */
+.login-input-field {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  border-radius: 0;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+/* עטיפת FloatLabel */
+.login-input-wrapper,
+.login-password-wrapper {
+  width: 100%;
+}
+
+/* שדה Input רגיל */
+.login-input-wrapper .p-inputtext {
+  width: 100% !important;
+  border: none !important;
+  border-bottom: 1px solid #aaa !important;
+  border-radius: 0 !important;
+  padding: 0.5rem 0 !important;
+  font-size: 1rem !important;
+  box-sizing: border-box !important;
+  background-color: white !important;
+}
+
+/* עטיפת שדה סיסמה */
+.login-password-wrapper .p-password {
+  width: 100% !important;
+  background-color: white !important;
+}
+
+/* שדה הסיסמה הפנימי */
+.login-password-wrapper .p-password input {
+  width: 100% !important;
+  border: none !important;
+  border-bottom: 1px solid #aaa !important;
+  border-radius: 0 !important;
+  padding: 0.5rem 0 !important;
+  font-size: 1rem !important;
+  box-sizing: border-box !important;
+  background-color: white !important;
+}

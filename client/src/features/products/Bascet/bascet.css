@@ -1,0 +1,115 @@
+*:not(button):not(input):not(select) {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.p-sidebar.custom-sidebar {
+    width: 100% !important;
+    max-width: 525px; /* במקום 500px */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* תוכן פנימי גמיש עם גלילה לגובה בלבד */
+.p-sidebar.custom-sidebar .card {
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+/* כרטיסים */
+#card .col-12 {
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.05);
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    animation: fadeInUp 0.4s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 100%;
+    overflow-x: hidden;
+    word-wrap: break-word;
+}
+
+#card .col-12:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* תמונה מוקטנת */
+.card img {
+    max-width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 1rem;
+    /* border: 2px solid #ffe2b6; */
+    transition: transform 0.3s ease;
+}
+
+.card img:hover {
+    transform: scale(1.05);
+}
+
+/* טקסטים מוקטן */
+.text-2xl {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.font-semibold {
+    font-size: 0.95rem;
+    color: #444;
+}
+
+.text-xl {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* בקרת כמות */
+.quantity-control {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.quantity-control button {
+    background-color: #fec6cc;
+    border: none;
+    padding: 4px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+}
+
+.quantity-control button:hover {
+    background-color: #f8d8db;
+}
+
+/* מבנה גמיש */
+.flex {
+    flex-wrap: wrap;
+    max-width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+/* אנימציית כניסה */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,43 @@
+.home-image {
+    width: 100%; /* תופס את כל רוחב המסך */
+    height: auto; /* שומר על פרופורציות התמונה */
+    opacity: 0; /* בהתחלה השקיפות היא 0 */
+    animation: fadeIn 3s forwards; /* אנימציה של שקיפות עם זמן של 3 שניות */
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0; /* התמונה תהיה שקופה בהתחלה */
+    }
+    100% {
+        opacity: 1; /* בסוף האנימציה התמונה תוצג בצורה מלאה */
+    }
+}
+
+.home-image {
+    width: 80%; /* הכנס את התמונה ב-80% מהרוחב של המסך */
+    height: auto; /* שמירה על פרופורציות */
+    margin: 0 auto;
+    display: block; /* להבטיח שהתמונה תתנהג כחסימה ותהיה ממורכזת */
+    opacity: 0; /* התחלה בשקיפות */
+    transform: translateY(20px); /* התמונה מתחילה 20px למטה */
+    animation: fadeUp 2s forwards; /* האנימציה מתבצעת במשך 2 שניות */
+}
+
+@keyframes fadeUp {
+    0% {
+        opacity: 0; /* התמונה תהיה שקופה בהתחלה */
+        transform: translateY(20px); /* התמונה מתחילה ממיקום נמוך */
+    }
+    100% {
+        opacity: 1; /* התמונה תהיה גלויה בסוף */
+        transform: translateY(0); /* התמונה תעבור למיקום שלה */
+    }
+}
+
+#bb-home {
+    position: relative; /* תאפשר להזיז את הכפתור באופן יחסי */
+    top: -30px; /* תזוזה למעלה ב-20px */
+    right: -10px; /* תזוזה ימינה ב-10px */
+}

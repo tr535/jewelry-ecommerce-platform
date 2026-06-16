@@ -1,0 +1,211 @@
+body, html, #root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fcfbf9;
+  color: #5a5a5a;
+  margin: 0;
+  padding: 0;
+}
+
+/* מכולת הדף */
+.bg-gray-50 {
+  background: transparent !important;
+  padding: 2.5rem 3rem !important;
+}
+
+/* הכרטיס הלבן של הניהול */
+.bg-white {
+  background: #fffefb !important;
+  border-radius: 18px !important;
+  box-shadow: 0 6px 20px rgba(238, 223, 207, 0.3);
+  padding: 2rem !important;
+  border: 1px solid #f0e7de;
+}
+
+/* כותרת ראשית */
+h2.text-2xl {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: #a78b6f;
+  letter-spacing: 1.1px;
+  margin-bottom: 1rem;
+}
+
+/* שורת הכלים */
+.p-toolbar {
+  background: transparent !important;
+  padding: 0 !important;
+  margin-bottom: 1.5rem !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+/* כפתורים */
+.p-button {
+  font-weight: 600;
+  box-shadow: 0 3px 8px rgba(167, 139, 111, 0.18);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border: none !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffc2c9;
+  color: #fff;
+  cursor: pointer;
+}
+
+.p-button:hover {
+  background-color: #ffa6b1 !important;
+  box-shadow: 0 6px 14px rgba(180, 163, 117, 0.3);
+  color: #fff !important;
+}
+
+.p-button:focus {
+  outline: none !important;
+  box-shadow: 0 0 0 3px #d6c8aa;
+}
+
+.p-button .pi-pencil, .p-button .pi-trash {
+  font-size: 1.1rem;
+  color: #201a10;
+}
+
+.p-button.p-button-danger {
+  background-color: #ff7684 !important;
+  color: white !important;
+  box-shadow: 0 3px 9px rgba(193, 136, 107, 0.25);
+}
+
+.p-button.p-button-danger:hover {
+  background-color: #fa071f !important;
+  box-shadow: 0 5px 14px rgba(169, 119, 90, 0.45);
+}
+
+/* טבלה */
+.p-datatable-sm {
+  border-radius: 14px !important;
+  overflow: hidden;
+  box-shadow: 0 5px 16px rgba(197, 178, 145, 0.12);
+  font-size: 1rem;
+  background: #fffdf9;
+}
+
+.p-datatable-header {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #a78b6f;
+  padding: 1rem 1.5rem !important;
+  border-bottom: 1px solid #f0e7de;
+}
+
+.p-column-title {
+  font-weight: 600 !important;
+  color: #a78b6f !important;
+  font-family: 'Playfair Display', serif !important;
+  letter-spacing: 0.04em !important;
+}
+
+.p-datatable-tbody > tr {
+  border-bottom: 1px solid #f7f3ec !important;
+  transition: background-color 0.25s ease;
+}
+
+.p-datatable-tbody > tr:hover {
+  background-color: #faf7f3 !important;
+}
+
+img.w-12.h-12,
+img.w-9 {
+  width: 100% !important;              /* ← תמלא את ההורה שלה */
+  max-width: 200px !important;         /* ← גודל ריאלי ברור */
+  height: auto !important;
+  object-fit: contain !important;
+  border-radius: 10px !important;
+  box-shadow: none !important;
+  display: block;
+  background-color: #fffefb !important; /* ← רקע אחיד */
+}
+
+/* טקסטים */
+.text-sm.font-medium.text-gray-700 {
+  color: #8f7f68 !important;
+  font-weight: 600;
+}
+
+/* דיאלוג */
+.p-dialog {
+  border-radius: 18px !important;
+  padding: 30px;
+  box-shadow: 0 8px 24px rgba(197, 178, 145, 0.22) !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fffdf9 !important;
+}
+
+.p-dialog .p-dialog-header {
+  font-family: 'Playfair Display', serif !important;
+  font-weight: 700 !important;
+  font-size: 1.5rem !important;
+  color: #a78b6f !important;
+  border-bottom: 1px solid #f0e7de !important;
+}
+
+/* טוסט */
+.p-toast {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  font-weight: 600 !important;
+  color: #a78b6f !important;
+}
+
+/* שדה חיפוש */
+.p-inputtext-sm {
+  border-radius: 12px !important;
+  border: 1px solid #e3dcca !important;
+  background-color: #fffcf8 !important;
+  padding-left: 2rem !important;
+  font-weight: 600 !important;
+  color: #a78b6f !important;
+  transition: border-color 0.3s ease;
+}
+
+.p-inputtext-sm:focus {
+  border-color: #b4a375 !important;
+  box-shadow: 0 0 8px #d2c7a3 !important;
+  outline: none !important;
+}
+
+.pi-search {
+  color: #b4a375 !important;
+}
+
+/* רדיו */
+.field-radiobutton label {
+  color: #a78b6f !important;
+  font-weight: 600;
+}
+
+/* פוקוס שדות */
+input:focus, textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px #d2c7a3;
+}
+
+/* כפתור outlined */
+.p-button-outlined {
+  border: 2px solid #e3dcca !important;
+  background: transparent !important;
+  color: #a78b6f !important;
+  font-weight: 600;
+}
+
+/* דירוג */
+.pi.pi-star {
+  color: #d9d9d9 !important;
+}
+
+.pi.pi-star-fill {
+  color: #c8a165 !important;
+  filter: drop-shadow(0 0 3px rgba(200,161,101,0.6)) !important;
+}
+
+.p-rating .p-rating-icon {
+  color: #ffb8c0ed !important; /* צבע ורוד לפקטור הכוכב */
+}
