@@ -1,5 +1,4 @@
 # Jewelry E-Commerce Platform
-
 A full-stack e-commerce platform built with React, Node.js, Express, and MongoDB, featuring secure authentication, role-based access control, product management, and personalized shopping cart functionality.
 
 ## Key Features
@@ -46,13 +45,19 @@ Authentication is implemented using JWT tokens, while middleware ensures that on
 
 ![Workflow Demonstration](gif.gif)
 
-### Screenshots
+## Screenshots
 
 **Home Page**
-![Home](home.png)
+![Home Page](צילום מסך 2026-06-16 175416.png)
 
-**Products**
-![Products](products.png)
+**Product Catalog**
+![Products](צילום מסך 2026-06-16 175514.png)
+
+**Shopping Cart**
+![Shopping Cart](צילום מסך 2026-06-16 175846.png)
+
+**Admin Panel**
+![Admin Panel](צילום מסך 2026-06-16 175749.png)
 
 ## Getting Started
 
@@ -61,3 +66,4 @@ Authentication is implemented using JWT tokens, while middleware ensures that on
 ```bash
 node --version
 npm --version
+```
