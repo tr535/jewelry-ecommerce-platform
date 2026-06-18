@@ -55,29 +55,27 @@ Authentication is implemented using JWT tokens, while middleware ensures that on
 # 📸 Screenshots
 
 <table>
-<tr>
-<td align="center">
-<b>Home Page</b><br>
-<img src="./175416 2026-06-16 צילום מסך.png" width="450"/>
-</td>
-<td align="center">
-<b>Product Catalog</b><br>
-<img src="./175514 2026-06-16 צילום מסך.png" width="450"/>
-</td>
-</tr>
-
-<tr>
-<td align="center">
-<b>Admin Panel</b><br>
-<img src="./175749 2026-06-16 צילום מסך.png" width="450"/>
-</td>
-<td align="center">
-<b>Shopping Cart</b><br>
-<img src="./175846 2026-06-16 צילום מסך.png" width="450"/>
-</td>
-</tr>
+  <tr>
+    <td align="center">
+      <b>Home Page</b><br>
+      <img src="./home-page.png" width="450"/>
+    </td>
+    <td align="center">
+      <b>Product Catalog</b><br>
+      <img src="./product-catalog.png" width="450"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>Admin Panel</b><br>
+      <img src="./admin-panel.png" width="450"/>
+    </td>
+    <td align="center">
+      <b>Shopping Cart</b><br>
+      <img src="./shopping-cart.png" width="450"/>
+    </td>
+  </tr>
 </table>
-
 ---
 
 ## Getting Started
