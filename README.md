@@ -82,6 +82,42 @@ Authentication is implemented using JWT tokens, while middleware ensures that on
 
 ### Prerequisites
 
+Make sure you have **Node.js** and **npm** installed.
+
 ```bash
 node --version
 npm --version
+```
+
+### Installation
+
+```bash
+git clone https://github.com/tr535/jewelry-ecommerce-platform.git
+cd jewelry-ecommerce-platform
+```
+
+### Backend
+
+```bash
+cd server
+npm install
+npm start
+```
+
+### Frontend
+
+Open a new terminal and run:
+
+```bash
+cd client
+npm install
+npm start
+```
+
+### Open the Application
+
+Visit:
+
+```text
+http://localhost:3000
+```
