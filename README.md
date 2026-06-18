@@ -1,4 +1,5 @@
 # Jewelry E-Commerce Platform
+
 A full-stack e-commerce platform built with React, Node.js, Express, and MongoDB, featuring secure authentication, role-based access control, product management, and personalized shopping cart functionality.
 
 ## Key Features
@@ -41,23 +42,43 @@ Administrators can create, update, and delete products through protected routes.
 
 Authentication is implemented using JWT tokens, while middleware ensures that only authorized users can access protected resources. Each user can only view and manage their own shopping cart.
 
-## Project Demo
+---
 
-![Workflow Demonstration](gif.gif)
+# 🎥 Project Demo
 
-## Screenshots
+<p align="center">
+  <img src="./kkk-ezgif.com-optimize.gif" width="900" alt="Project Demo"/>
+</p>
 
-**Home Page**
-![Home Page](צילום מסך 2026-06-16 175416.png)
+---
 
-**Product Catalog**
-![Products](צילום מסך 2026-06-16 175514.png)
+# 📸 Screenshots
 
-**Shopping Cart**
-![Shopping Cart](צילום מסך 2026-06-16 175846.png)
+<table>
+<tr>
+<td align="center">
+<b>Home Page</b><br>
+<img src="./175416 2026-06-16 צילום מסך.png" width="450"/>
+</td>
+<td align="center">
+<b>Product Catalog</b><br>
+<img src="./175514 2026-06-16 צילום מסך.png" width="450"/>
+</td>
+</tr>
 
-**Admin Panel**
-![Admin Panel](צילום מסך 2026-06-16 175749.png)
+<tr>
+<td align="center">
+<b>Admin Panel</b><br>
+<img src="./175749 2026-06-16 צילום מסך.png" width="450"/>
+</td>
+<td align="center">
+<b>Shopping Cart</b><br>
+<img src="./175846 2026-06-16 צילום מסך.png" width="450"/>
+</td>
+</tr>
+</table>
+
+---
 
 ## Getting Started
 
@@ -66,4 +87,3 @@ Authentication is implemented using JWT tokens, while middleware ensures that on
 ```bash
 node --version
 npm --version
-```
