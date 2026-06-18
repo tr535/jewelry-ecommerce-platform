@@ -19,6 +19,7 @@ A full-stack e-commerce platform built with React, Node.js, Express, and MongoDB
 ## Technologies
 
 ### Backend
+
 - Node.js
 - Express
 - MongoDB
@@ -28,6 +29,7 @@ A full-stack e-commerce platform built with React, Node.js, Express, and MongoDB
 - CORS
 
 ### Frontend
+
 - React
 - Redux Toolkit
 - RTK Query
@@ -44,7 +46,7 @@ Authentication is implemented using JWT tokens, while middleware ensures that on
 
 ---
 
-# 🎥 Project Demo
+## 🎥 Project Demo
 
 <p align="center">
   <img src="./kkk-ezgif.com-optimize.gif" width="900" alt="Project Demo"/>
@@ -52,30 +54,33 @@ Authentication is implemented using JWT tokens, while middleware ensures that on
 
 ---
 
-# 📸 Screenshots
+## 📸 Screenshots
+
+A quick overview of the application's main pages.
 
 <table>
   <tr>
     <td align="center">
       <b>Home Page</b><br>
-      <img src="./home-page.png" width="450"/>
+      <img src="./home-page.png" width="450" alt="Home Page"/>
     </td>
     <td align="center">
       <b>Product Catalog</b><br>
-      <img src="./product-catalog.png" width="450"/>
+      <img src="./product-catalog.png" width="450" alt="Product Catalog"/>
     </td>
   </tr>
   <tr>
     <td align="center">
       <b>Admin Panel</b><br>
-      <img src="./admin-panel.png" width="450"/>
+      <img src="./admin-panel.png" width="450" alt="Admin Panel"/>
     </td>
     <td align="center">
       <b>Shopping Cart</b><br>
-      <img src="./shopping-cart.png" width="450"/>
+      <img src="./shopping-cart.png" width="450" alt="Shopping Cart"/>
     </td>
   </tr>
 </table>
+
 ---
 
 ## Getting Started
